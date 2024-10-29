@@ -1889,7 +1889,6 @@ footer {
 
   .footer-bottom article {
     font-size: 3em;
-    /* Smaller font size for medium screens */
   }
 }
 
@@ -2208,12 +2207,10 @@ footer {
 
   .footer-bottom {
     height: 55px;
-    /* Adjust the height for smaller screens */
   }
 
   .footer-bottom article {
     font-size: 2em;
-    /* Smaller font size for small screens */
   }
 
   .footer-avatar-img {
@@ -2319,14 +2316,11 @@ footer {
 
   .footer-bottom {
     height: 50px;
-    /* Further adjust the height for extra small screens */
   }
 
   .footer-bottom article {
     font-size: 1.5em;
-    /* Smaller font size for extra small screens */
     letter-spacing: 1px;
-    /* Adjust letter spacing for better readability */
   }
 }
 
@@ -2353,10 +2347,7 @@ footer {
 
   .logos {
     gap: 20px;
-  }
 
-  /* https://github.com/vi0650 */
-}
 
 @media screen and (max-width: 300px) {
   html {
@@ -2390,13 +2381,4 @@ footer {
   }
 }
 
-/* https://github.com/vi0650 */
-/* responsive code above */
-/*   
 
-  @media screen and (min-height: 900px) and (max-width: 600px) {
-
-    .text-content{
-        justify-content: flex-start;
-    }
-  } */
